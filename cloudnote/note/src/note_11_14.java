@@ -25,6 +25,8 @@ public class note_11_14 {
      * 服务链路监控：zipkin，sleuth
      * 统一配置管理：springcloudconfig，nacos
      * 统一网关路由：springcloundgateway，zuul
+     * 服务保护组件：Hystrix，Sentinel
+     * 负载均衡：ribbon
      *
      */
 }

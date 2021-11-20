@@ -8,6 +8,7 @@
     <artifactId>cloud-demo-begin</artifactId>
     <version>1.0</version>
     <modules>
+        <module>eureka-server</module>
         <module>user-service</module>
         <module>order-service</module>
     </modules>
@@ -32,6 +33,14 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!--eureka服务端-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>-->
+<!--                <version>2.2.1.RELEASE</version>-->
+<!--            </dependency>-->
+
             <!-- springCloud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -51,6 +60,18 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.22</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>2.13.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

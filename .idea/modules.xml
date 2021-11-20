@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clouddemo/cloud-demo-begin/cloud-demo-begin.iml" filepath="$PROJECT_DIR$/clouddemo/cloud-demo-begin/cloud-demo-begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudnote/cloudnote.iml" filepath="$PROJECT_DIR$/cloudnote/cloudnote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouddemo/cloud-demo-begin/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/clouddemo/cloud-demo-begin/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouddemo/cloud-demo-begin/order-service/order-service.iml" filepath="$PROJECT_DIR$/clouddemo/cloud-demo-begin/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clouddemo/cloud-demo-begin/user-service/user-service.iml" filepath="$PROJECT_DIR$/clouddemo/cloud-demo-begin/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>
